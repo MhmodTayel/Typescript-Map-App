@@ -1,5 +1,5 @@
-import { Company } from "./company";
-import { User } from "./User";
+import { Company } from './company';
+import { CustomMap } from './CustomMap';
+import { User } from './User';
 
-
-console.log(new Company, new User)
+new CustomMap('map');
