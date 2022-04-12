@@ -3,5 +3,8 @@ import { CustomMap } from './CustomMap';
 import { User } from './User';
 
 const customMap = new CustomMap('map');
-
-customMap.addUserMarker(new User());
+const user = new User
+const company = new Company
+customMap.addMarker(user);
+customMap.addMarker(company);
+customMap.drawLine(user,company)
